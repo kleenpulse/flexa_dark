@@ -1,6 +1,6 @@
 const ServiceCard = ({ imgURL, label, subtext }) => {
 	return (
-		<div className="flex-1 sm:w-[350px] sm:min-w-[350px] w-full rounded-[20px] shadow-3xl px-10 py-16 border border-coral-red sm:max-w-md z-30 min-[874px]:backdrop-blur-lg max-[874px]:bg-black max-[874px]:shadow-[0_0_15px_rgb(0,0,0,0.5)]">
+		<div className="flex-1 sm:w-[350px] sm:min-w-[350px] w-full rounded-[20px] shadow-3xl px-10 py-16 border border-coral-red sm:max-w-md z-30 min-[874px]:backdrop-blur-lg max-[874px]:bg-black max-[874px]:shadow-[0_0_15px_rgb(0,0,0,0.5)] min-[874px]:bg-[#00000073]">
 			<div className="w-12 h-12 flex justify-center items-center bg-gradient-to-r from-[#ff6347] to-[#FFD700] rounded-full">
 				<img
 					src={imgURL}

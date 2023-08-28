@@ -7,7 +7,7 @@ const SuperQuality = () => {
 			id="about-us"
 			className="z-[2] relative flex justify-between items-center max-lg:flex-col gap-10 w-full max-container"
 		>
-			<div className="flex flex-1 flex-col lg:border border-coral-red lg:p-4 rounded-3xl bg-black">
+			<div className="flex flex-1 flex-col lg:border border-coral-red lg:p-4 rounded-3xl bg-[#00000073] backdrop-blur-lg">
 				<h2 className="font-palanquin text-4xl max-sm:text-[40px] capitalize font-bold text-white">
 					We Provide You
 					<br />
