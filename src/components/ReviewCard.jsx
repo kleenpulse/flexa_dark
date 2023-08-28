@@ -1,6 +1,6 @@
 const ReviewCard = ({ imgURL, customerName, rating, feedback }) => {
 	return (
-		<div className="lg:border lg:py-8 lg:rounded-2xl shadow-lg shadow-[#333] border-coral-red flex justify-evenly items-center flex-col bg-black max-lg:pt-4 max-lg:rounded-2xl sm:mr-4 h-[400px] mb-6 max-sm:w-full max-sm:mr-2 max-sm:h-[420px]">
+		<div className="lg:border lg:py-8 lg:rounded-2xl shadow-lg shadow-[#333] border-coral-red flex justify-evenly items-center flex-col bg-[#0000008a] backdrop-blur-lg max-lg:pt-4 max-lg:rounded-2xl sm:mr-4 h-[400px] mb-6 max-sm:w-full max-sm:mr-2 max-sm:h-[420px]">
 			<img
 				src={imgURL}
 				alt={customerName}
