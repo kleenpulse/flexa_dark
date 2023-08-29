@@ -38,7 +38,7 @@ const PopularProducts = () => {
 				</p>
 			</div>
 
-			<div className="mt-16 flex justify-center items-center w-full sm:gap-4 border border-t border-r-0 border-l-0 py-6 border-coral-red">
+			<div className="mt-16 flex justify-center items-center w-full sm:gap-4 border border-t border-r-0 border-l-0 py-6 border-coral-red product-card">
 				<AliceCarousel
 					mouseTracking
 					items={items}

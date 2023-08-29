@@ -61,7 +61,7 @@ const Nav = () => {
 					))}
 				</ul>
 				<div
-					className={`lg:hidden absolute right-6 top-10 cursor-pointer z-[60] ${
+					className={`lg:hidden absolute right-6 top-10 cursor-pointer z-[9999990] ${
 						isMobile
 							? "!fixed md:right-14 top-10 right-4 bg-white h-10 w-10 rounded-full flex justify-center items-center"
 							: undefined

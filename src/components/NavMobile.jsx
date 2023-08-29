@@ -3,7 +3,7 @@ import { navLinks } from "../constants";
 const NavMobile = ({ setIsMobile }) => {
 	return (
 		<div
-			className="pt-8 pl-10 !fixed top-0 right-0 z-50 !h-[100vh] bg-black"
+			className="pt-8 pl-10 !fixed top-0 right-0 !z-[99999] !h-[100vh] bg-black"
 			id="mobile-menu"
 		>
 			<a href="#hero">

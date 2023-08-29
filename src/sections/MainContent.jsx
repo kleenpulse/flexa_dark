@@ -75,7 +75,7 @@ const MainContent = () => {
 			</section>
 			<section
 				ref={serviceRef}
-				className={` padding-x py-10 relative max-[874px]:bg-gradient-to-r from-[#ff6347] to-[#FFD700] lg:z-20  service-bg ${
+				className={` padding-x py-10 relative  max-[874px]:bg-gradient-to-r from-[#ff6347] to-[#FFD700] lg:z-20  service-bg ${
 					isServiceRef ? "animated-bg" : ""
 				} ${isServiceRef ? "add-bright" : ""}`}
 			>
