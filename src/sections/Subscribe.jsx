@@ -6,7 +6,7 @@ const Subscribe = () => {
 			className="max-container flex justify-between items-center max-lg:flex-col gap-10"
 			id="contact-us"
 		>
-			<h3 className="text-4xl leading-[68px] lg:max-w-md font-palanquin font-bold text-white">
+			<h3 className="text-4xl leading-[68px] lg:max-w-md font-palanquin font-bold text-white max-[400px]:text-center max-[400px]:text-2xl">
 				Sign Up for{" "}
 				<span className="bg-gradient-to-r from-[#ff6347] to-[#FFD700] bg-clip-text w-fit text-transparent">
 					Updates{" "}
@@ -20,12 +20,6 @@ const Subscribe = () => {
 					className="input"
 				/>
 				<div className="flex max-sm:justify-end items-center max-sm:w-full">
-					{/* <Button
-						text="Sign up"
-						bgcolor={"coral-red"}
-						color={"white"}
-						fullWidth
-					/> */}
 					<Button text="Sign up" animation={"slide"} size={"large"} fullWidth />
 				</div>
 			</div>
